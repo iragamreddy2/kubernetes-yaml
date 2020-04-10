@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-app
+  labels:
+    app: my-webapp
+    tier: front-end
+spec:
+ containers:
+      - name: nginx
+        image: nginx
+
+      - name: db
+        image: redis
