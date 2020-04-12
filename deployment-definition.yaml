@@ -4,6 +4,7 @@ metadata:
   name: my-webapp
   tier: front-end
 spec:
+  replicas: 2
   selector:
     matchLabels:
       tier: front-end

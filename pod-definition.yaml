@@ -7,8 +7,9 @@ metadata:
     tier: front-end
 spec:
  containers:
-      - name: nginx
-        image: nginx
+ - name: nginx
+   image: nginx
 
-      - name: db
-        image: redis
+ - name: db
+   image: redis
+ 
